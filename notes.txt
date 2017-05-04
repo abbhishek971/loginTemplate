@@ -1,0 +1,8 @@
+This project works on Bootstrap3 CSS framework, PHP5 and above and also requires a MySQL database.
+
+To make it fully functional, first create a database named "experiment"
+
+Then just import the experiment.sql file included  in the archive.
+
+Regards,
+Abhishek Alai.

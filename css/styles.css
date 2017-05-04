@@ -1,0 +1,339 @@
+.panel-login {
+  font-family: 'Corbel';
+  border-color: #ccc;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+  color: #00415d;
+  background-color: #fff;
+  border-color: #fff;
+  text-align:center;
+}
+.panel-login>.panel-heading a{
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+  color: white;
+  background-color: #1CB98E;
+}
+.panel-login>.panel-heading hr{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  clear: both;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+  height: 45px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+  outline:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+.btn-login {
+  background-color: #1CB98E;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-color: #1CB98E;
+}
+.btn-login:hover,
+.btn-login:focus {
+  color: #fff;
+  background-color: #53A3CD;
+  border-color: #53A3CD;
+}
+.forgot-password {
+  text-decoration: underline;
+  color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+  text-decoration: underline;
+  color: #666;
+}
+
+.btn-register {
+  background-color: #1CB98E;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-color: #1CB98E;
+}
+.btn-register:hover,
+.btn-register:focus {
+  color: #fff;
+  background-color: #1CA347;
+  border-color: #1CA347;
+}
+
+#firstNameHolder{
+    padding-left: 0px;
+    position: relative;
+    left: 0px;
+    float: left;
+    width: 50%;
+  }
+
+  #lastNameHolder{
+    padding-right: 0px;
+    position: absolute;
+    right: 0px;
+    float: right;
+    width: 50%;
+  }
+
+  #panel-login{
+    background-color: black;
+    color: white;
+  }
+
+  #panel-heading{
+    background-color: black;
+  }
+
+  .btn{
+    border-radius: 0px;
+  }
+
+  input[type="text || email || password"]{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border-radius: 0px;
+  }
+  
+ #register-form-link-holder{
+    padding-right: 0px;
+  }
+
+#login-form-link-holder{
+    padding-left: 0px;
+  }
+
+  .person-icon{
+    max-height: 64px;
+    width: auto;
+  }
+
+  tbody{
+    border-top-color: black;
+    border-top-width: 8px;
+  }
+
+  .btn-icon{
+    max-height: 24px;
+    width: auto;
+  }
+
+  .ops-btn{
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0);
+  }
+
+  .navbar{
+    border-radius: 0px;
+    color: black;
+    margin-bottom: 0px;
+    background-color: white;
+    border-color: rgba(255,255,255,0);
+  }
+
+  .navbar .navbar-brand,li{
+    color: black;
+  }
+
+  .navbar-inverse .navbar-nav>li>a{
+    color: black;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:hover{
+    color: blue;
+  }
+
+  .navbar-image{
+    max-height: 28px;
+    width: auto;
+  }
+
+  /* move special fonts to HTML head for better performance */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700');
+
+
+/* custom template */
+html, body {
+   height: 100%;
+   font-family:'Open Sans',arial,sans-serif;
+   background-color: rgba(0, 0, 0, 0.04);
+   background-attachment: fixed;
+   background-repeat: repeat;
+}
+
+a {
+  color:#222222;
+}
+
+.wrapper, .row {
+   height: 100%;
+   margin-left:0;
+   margin-right:0;
+}
+
+.wrapper:before, .wrapper:after,
+.column:before, .column:after {
+    content: "";
+    display: table;
+}
+
+.wrapper:after,
+.column:after {
+    clear: both;
+}
+
+.column {
+    height: 100%;
+    overflow: auto;
+    *zoom:1;
+}
+
+.column .padding {
+    padding: 20px;
+    background-color: white;
+}
+
+.box {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: black;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.divider {
+  margin-top:32px;
+}
+
+#main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background: grey;
+}
+#main .img-circle {
+  height:70px;
+  width:70px;
+}
+
+#sidebar{
+  padding-top: 100px;
+}
+
+#sidebar, #sidebar a {
+    color:#ffffff;
+    background-color:transparent;
+  text-shadow:1px 0 1px #888888;
+}
+#sidebar a.logo {
+  max-height: 64px;
+  width: auto;
+  display:block;
+  color:#777777;
+  height:40px;
+  width:40px;
+  margin:15px;
+  font-size:26px;
+  font-weight:700;
+  text-align:center;
+  text-decoration:none;
+  text-shadow:0 0 0;
+}
+#sidebar-footer {
+  position:absolute;bottom:5px;
+}
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+  #sidebar,#sidebar a.logo {
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    font-size:26px;
+  }
+  #sidebar a.logo {
+    font-size:50px;
+    height:75px;
+    width:75px;
+    margin-bottom:30px;
+  }
+}
+
+.col-sm-9.full {
+    width: 100%;
+}
+
+#page-content{
+  background-color: white;
+}
+
+#btn-add-member{
+  background-color: #DD574C;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#btn-register-holder, #btn-login-holder{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.form-link{
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
+.col-sm-12{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 35px;
+}
+
+.email{
+  text-align: center;
+}
